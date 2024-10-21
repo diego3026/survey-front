@@ -1,0 +1,49 @@
+.radio{
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+}
+.respuestas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    gap: 5px;
+}
+.radios{
+    fontSize: '14px';
+    fontFamily: "initial";
+    color: #666666;
+    display: flex;
+    gap: 5px;
+}
+.textarea, .textarea-error{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    resize: vertical;
+    transition: border-color 0.1s;
+}
+.textarea:focus {
+    border-color: #00B8B0;
+    outline: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.textarea-error{
+    border-color: red;
+}
+
+.textarea-error:focus {
+    border-color: red;
+    outline: none;
+}

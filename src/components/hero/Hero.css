@@ -1,0 +1,118 @@
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+.hero__image{
+    width: 100%; 
+    height: auto; 
+    position: relative; 
+}
+
+.hero_image-img{
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.hero__texto{
+    position: absolute; 
+    top: 40%; 
+    left: 10%; 
+    transform: translate(-10%, -60%);
+    text-align: justify; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.hero_texto-titulo{
+    margin-top: 0px;
+}
+
+.hero_texto_final_wrapper {
+    display: flex;             
+    align-items: flex-start; 
+    margin-right: 1000px; 
+    gap:100px;
+    margin-top: 0px;
+}
+
+
+.titulo-primero{
+    font-size: xx-large;
+    margin-bottom: 20px; 
+    color: #00B8B0;
+    margin-top: 2px;
+    
+} 
+
+.titulo-segundo{
+    font-size: xx-large;
+    margin-bottom: 20px; 
+    color: #00B8B0;
+    margin-top: 0
+    
+} 
+
+
+.hero__texto-button{
+    margin-bottom: 30px;
+
+}
+
+ .titulo-tercero, .titulo-cuarto, .titulo-quinto {
+    color: #f7fbfb;
+    font-size: x-large;
+    margin-top: 0
+
+}
+
+
+.hero__texto_final{
+    margin-top: 0px;
+    flex-direction: column; 
+    margin-right: 100px;  
+}
+
+
+
+
+.titulo-sexto, .titulo-noveno {
+    color: #00B8B0;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.hero_texto_final, .hero_texto_final2 {
+    display: flex; 
+    flex-direction: column; 
+    
+}
+
+
+
+.titulo-septimo, .titulo-obtavo {
+    color: #ffffff;
+    font-size: large;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.titulo-decimo, .titulo-once {
+    color: #fffdfd;
+    font-size: large;
+    margin-bottom: 0px;
+    margin-top: 0;
+}

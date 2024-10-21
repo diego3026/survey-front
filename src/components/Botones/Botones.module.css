@@ -1,0 +1,37 @@
+.contenedor {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .contenedor button {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    transition: all ease 0.5s;
+    cursor: pointer;
+  }
+  
+  .confirmar {
+    background: green;
+  }
+  .cancelar {
+    background: #e53835;
+  }
+  
+  .confirmar:hover {
+    background: rgb(9, 180, 9);
+    box-shadow: rgba(9, 180, 9, 0.35) 0px 5px 15px;
+    transform: translateX(10px);
+  }
+  
+  .cancelar:hover {
+    background: #af312f;
+    box-shadow: rgba(175, 49, 47, 0.35) 0px 5px 15px;
+    transform: translateX(-10px);
+  }

@@ -1,0 +1,42 @@
+.contenedor {
+    background: #00B8B0FC;
+    margin: 1rem;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 10px;
+  }
+  
+  .input {
+    font-size: 2rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    color: white;
+    text-align: start;
+  }
+  
+  .tituloDesc {
+    color: white;
+    font-weight: 300;
+    text-align: start !important;
+  }
+  
+  .contenedor textarea {
+    color: gray;
+    background: white;
+    width: 500px;
+    outline: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    height: 200px;
+    resize: none;
+  }
